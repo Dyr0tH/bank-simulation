@@ -1,0 +1,10 @@
+{
+  "name": "apex-national-bank-web-platform",
+  "version": "1.0.0",
+  "description": "Full-stack institutional banking web application with MySQL Workbench integration",
+  "scripts": {
+    "init-db": "npm --prefix server run init-db",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  }
+}
